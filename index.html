@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SOLOGRAM</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+
+        <div class="header-container nav">
+            <header class="wrapper clearfix">
+                <h1 class="title"><i>SOLOGRAM</i></h1>
+                <nav class="sign-in">
+                    <ul>
+                        <li><a class="james_modal" href="#">Sign Up</a></li>
+                        <li><a class="james_modal_2" href="#">Sign In</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="header-container hero">
+            <header class="wrapper clearfix">
+                <h1 class="tag-line">Hyper local, crowd sourced, industry disruptor.</h1>
+                <nav class="hero-nav">
+                    <ul class="icons">
+                        <li><a class="highfive" href="#"><p>nav</p></a></li>
+                        <li><a class="sync" href="#"><p>nav</p></a></li>
+                        <li><a class="followup" href="#"><p>nav</p></a></li>
+                        <li><a class="mail" href="#"><p>nav</p></a></li>
+                        <li><a class="lock" href="#"><p>nav</p></a></li>
+                    </ul>
+                    <ul class="social">
+                        <li><a href="#"><span class="facebook">SIGN IN WITH FACEBOOK</span></a></li>
+                        <li><a href="#"><span class="google">SIGN IN WITH GOOGLE</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <section>
+                        <img src="img/phone-comp.png" />
+                    </section>
+                </article>
+
+                <aside>
+                    <p>Let’s face it: You need a <strong>better way to check in</strong> and <strong>share your creative side</strong> with the people who matter the most. People rave about the ability to:</p>
+                    <ul>
+                        <li>Add filters and crop pictures</li>
+                        <li>Check in to dinner and check out of reality</li>
+                        <li>Write reviews from a hyperlocal perspective</li>
+                        <li>Rate 1 to 5 stars on everything</li>
+                        <li>Push to all your favorite social networks</li>
+                        <li>Discover new people just like you</li>
+                    </ul>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <ul>
+                    <li> Copyright 2012 SoLoMoGrm, Inc. All Rights Reserved. </li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Developers</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </footer>
+        </div>
+        <div class="popup">
+            <div class="james_modal_box">
+                <a href="#" class="james_modal_close"></a>
+                <div class="james_inner_modal_box">
+                    <h2>This should be title</h2><p class="account"></p>
+                    <div class="signin-left">
+                        <div id="contact-form">    
+                         
+                        <form id="contact" method="post" action="">
+                        <fieldset>    
+                         
+                        <div id="name">
+                            <label for="name">Name</label>
+                            <input type="text" name="name">
+                        </div>
+                         
+                        <div id="email">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div id="password"> 
+                            <label for="password">Password</label>
+                            <input type="text" name="password">
+                        </div>
+                        <input type="submit" name="submit" id="submit" value="Send Message" />
+                         
+                        </fieldset>
+                        </form>
+                         
+                        </div><!-- /end #contact-form -->
+                    </div>
+                    <div class="signin-right">
+                        <nav class="hero-nav">
+                            <ul class="social">
+                                <li><a href="#"><span class="facebook">SIGN IN WITH FACEBOOK</span></a></li>
+                                <li><a href="#"><span class="google">SIGN IN WITH GOOGLE</span></a></li>
+                            </ul>
+                            <p style="font-size: 10px; color: #777;">Start off with familiar faces by signing in with Facebook or Google. We will never post anything to your Facebook or Google account.</p>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('.james_modal').james_modal_box();
+            $('.james_modal_2').james_modal_box({
+                title:'Sign In',
+                description:'Description',
+                account: 'Already have an account? <a class="james_modal" href="#">Sign up</a>',
+                buttonval: 'SIGN IN'
+            });
+        });
+        </script>
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    </body>
+</html>
